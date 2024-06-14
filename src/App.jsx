@@ -4,6 +4,7 @@ import Title from './components/Title/Title';
 import Gallery from './components/Gallery/Gallery';
 import Review from './components/Review/Review';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
        <Title subTitle='Review' title='What student Says'/>
        <Review/>
       </div>
+      <Footer/>
     </div>
   );
 }
